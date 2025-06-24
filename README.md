@@ -1,7 +1,5 @@
 # Task_03_Descriptive_Stats
 a data summarizing system that will allow a researcher to give a dataset and have a descriptive summary or analysis of that dataset to be constructed for the researchers. To that end you will build (or build upon) a system to produce that analysis of the 2024 US presidential elections and social media activity. 
-Here you go — you can **copy-paste the following directly into your `README.md`** file in your GitHub repository:
-
 ---
 
 ````markdown
@@ -16,14 +14,15 @@ This project explores and summarizes three real-world datasets related to **2024
 
 The objective was to generate descriptive statistics (count, mean, min, max, std, unique values, top categories) for both column-level and grouped data (by `page_id` and by `page_id + ad_id`) across all approaches and compare their usability and performance.
 
----
+
 
 ## 🚀 How to Run the Code
 
 ### 📁 Prerequisites
 Ensure you have Python 3.x installed, then install dependencies:
 
-```bash
+```
+bash
 pip install pandas polars
 ````
 
